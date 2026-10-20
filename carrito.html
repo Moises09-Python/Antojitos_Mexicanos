@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/formestilos.css">
+        <center>
+        <div class="navbar">
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="info.html">Catalogo</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div><br>
+        </center>
+</head>
+<body>
+    <center>
+        <h1>Comida</h1><br><br>
+        <div class="card">
+            <img src="img/tostada.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Tostadas</div>
+                    <div class="car-description">
+                        $70<br>
+                        <button class="boton" onclick="agregarAlCarrito('Tostada')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/pozole.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Pozole</div>
+                    <div class="car-description">
+                        $90<br>
+                        <button class="boton" onclick="agregarAlCarrito('Pozole')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos</div>
+                    <div class="car-description">
+                        Blanditos<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos, Blanditos')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos</div>
+                    <div class="car-description">
+                        Termino Medio<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos, Termino medio')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos</div>
+                    <div class="car-description">
+                        Dorados<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos, Dorados')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes_des.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos de desebrada</div>
+                    <div class="car-description">
+                        Blanditos<br>
+                        $80<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos Desebrada, Blanditos')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes_des.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos de desebrada</div>
+                    <div class="car-description">
+                        Termino Medio<br>
+                        $80<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos Desebrada, Termino medio')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/sopes_des.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Sopitos de desebrada</div>
+                    <div class="car-description">
+                        Dorados<br>
+                        $80<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Sopitos Desebrada, Dorados')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <div class="card">
+            <img src="img/enchiladas.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Enchiladas</div>
+                    <div class="car-description">
+                        Blanditas<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Enchiladas, Blanditas')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/enchiladas.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Enchiladas</div>
+                    <div class="car-description">
+                        Termino Medio<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Enchiladas, Termino medio')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="card">
+            <img src="img/enchiladas.jpg" width="100px" height="100px">
+            <div class="card-content">
+                <div class="card-title">Enchiladas</div>
+                    <div class="car-description">
+                        Doradas<br>
+                        $60<br>
+                        <button class="boton" onclick="agregarAlCarrito('Orden de Enchiladas, Doradas')">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="carrito">
+            <h2>Carrito</h2>
+            <div class="contador">Productos en el carrito: <span id="cantidad">0</span></div>
+            <ul id="listaCarrito"></ul>
+        </div>
+    </center>
+    <script>
+            let cantidad = 0;
+            const listaCarrito = document.getElementById("listaCarrito");
+            const cantidadSpan = document.getElementById("cantidad");
+            function agregarAlCarrito(producto) {
+                cantidad++;
+                cantidadSpan.textContent = cantidad;
+                const li = document.createElement("li");
+                li.textContent = producto;
+                listaCarrito.appendChild(li);
+            }
+    </script>
+</body>
+</html>
